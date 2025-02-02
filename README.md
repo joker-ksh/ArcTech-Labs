@@ -1,5 +1,5 @@
 # React MUI Table with Async/Await and Redux - Technical Implementation
-
+`Hosted website link : ` https://tubular-treacle-2e9cba.netlify.app/
 ## Overview
 This documentation outlines a robust implementation of a responsive data table using React and Material-UI (MUI), featuring asynchronous data fetching from the JSONPlaceholder API and state management with Redux. The solution demonstrates modern React practices, efficient state management, and responsive design principles.
 
