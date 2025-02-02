@@ -20,6 +20,9 @@ export default function BasicTable() {
   const dispatch = useDispatch();
   const rows = useSelector((state) => state.data.value);
 
+  //this is useEffect Hook used to fetch the data from the Api and store the response in the Redux store
+  //Usually in React lifecycle methods the useEffect Hook is used to perform side effects(After browser writting) in functional components
+  //As we know that this is some how similar to async await in javascript which keeps a promise and waits for the response(asyncronus programming)
   useEffect(() => {
     const fetchData = async () => {
       try {
